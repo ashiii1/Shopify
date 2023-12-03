@@ -18,7 +18,7 @@ const app = express();
 app.use(express.json());
 app.use(morgan("dev"));
 
-//routes
+//routes...
 app.use("/api/v1/auth", authRoutes);
 
 //rest api
