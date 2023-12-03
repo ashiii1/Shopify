@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import { GiShoppingBag } from "react-icons/gi";
+//import { GiShoppingBag } from "react-icons/gi";
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
             aria-controls="navbarTogglerDemo01"
             aria-expanded="false"
             aria-label="Toggle navigation"
-          >
+          > 
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
